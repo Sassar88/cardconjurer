@@ -17,7 +17,7 @@ import { Footer }                from 'View/Component';
 const Application = () => (
     <React.StrictMode>
         <Suspense fallback="loading">
-            <ConfigProvider theme={{ algorithm: theme.darkAlgorithm }}>
+            <ConfigProvider theme={{ algorithm: theme.compactAlgorithm }}>
                 <Provider store={Store}>
                     <PersistGate persistor={Persistor} loading={null}>
                         <Router>
